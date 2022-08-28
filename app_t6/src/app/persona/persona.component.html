@@ -1,0 +1,27 @@
+<div *ngIf="persona">
+    <h4>Carnet Empleado</h4>
+    <app-img-persona></app-img-persona>
+    <div>
+        <label for="">Nombre empleado</label>
+        <h5>{{persona.nombre}}</h5>
+    </div>
+    <div>
+        <label for="">Cargo del empleado</label>
+        <h5>{{persona.puesto}}</h5>
+    </div>
+    <div>
+        <label for="">Fecha de ingreso</label>
+        <h5>{{persona.fecha_ingreso}}</h5>
+    </div>
+    <div>
+        <label for="">Estatus</label>
+        <h5>{{persona.estatus}}</h5>
+    </div>
+    <div>
+        <label for="">Departamento</label>
+        <h5>{{persona.departamento}}</h5>
+    </div>
+    <a href="#" class="btn btn-primary">Ver mas datos...</a>
+    <br>
+    <hr>
+</div>
