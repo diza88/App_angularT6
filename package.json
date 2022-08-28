@@ -1,0 +1,22 @@
+{
+  "name": "app_angulart6",
+  "version": "1.0.0",
+  "description": "Tarea numero 6, aplicacion en angular",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diza88/App_angularT6.git"
+  },
+  "author": "Richard Diaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diza88/App_angularT6/issues"
+  },
+  "homepage": "https://github.com/diza88/App_angularT6#readme",
+  "dependencies": {
+    "node": "^16.17.0"
+  }
+}
